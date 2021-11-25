@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.login {
+    background: rgb(88, 6, 64);
+    /* border-radius: 2px; */
+    /* border: 2px; */
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    opacity: .8;
+   padding: 30px;
+}
+
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 10px;
+    
+} 
+
+.username, .password{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+input.name , input#pwd {
+    padding: 10px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+#login{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./signupback.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sign-up{
+
+    display: block;
+    background:rgb(3, 169, 252);
+    /* border-radius: 2px; */
+    /* border: 2px; */
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+    opacity: .8;
+    padding: 30px; 
+    height: 350px;  
+    text-align: left;  
+}
+
+input[type='number']{
+    -webkit-appearance: none;
+}
+.signup-btn{
+    text-align: center !important;
+    position: relative;
+    top: 30px;
+    
+}
+
+.submit{
+  height: 35px;
+  width: 50%;
+  border-radius: 80px;
+  border: black;
+  border-style: solid;
+    
+  background-color: gray; 
+  
+}
+
+input:hover{
+    background-color: brown;
+}
+
+button:hover{
+    background-color: brown;
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+input{
+    display: flex;
+    text-align: center !important;
+    width: 100%;
+    margin: 5px;
+    height: 30px;
+    border-radius: 80px;
+  border:black;
+  border-style: solid;
+  background-color: gray;
+  color: black;
+  font-size: 16px;
+  
+}
+label, span{
+   
+ color: black;   
+ margin-left: 6px;
+ font-size: large;
+ font-family:cursive;
+ text-transform: capitalize;
+ font-weight: 900;
+}
+
+
+
+
+
+
+/* label , input{
+    display: flex;
+    justify-content: center;
+} */

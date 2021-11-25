@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url('./ShoppingCartback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+#test_ShoppingCart{
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 20px;
+    justify-content: left;
+  }
+
+  .remove{
+  position: relative;
+  top: -10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  background-color:yellow;
+  color: black;
+  font-weight: 700;
+  }
+
+  .remove:hover{
+    background-color:slateblue;
+    color: white;
+  }
+
+  .card {
+     
+    position: relative;
+    font-size: 30px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .card-img-top{
+    
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border: none;
+    border-radius: 140px;
+  
+  }
+  .login{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: 1000;
+    color:blue;
+  
+  }
